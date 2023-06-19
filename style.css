@@ -1,0 +1,95 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #272424;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  #banner {
+    text-align: center;
+    background-image: url('camping.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);    
+  }
+  
+  #banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  #sobre h2, #programacao h2, #ingressos h2, #contato h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .ticket {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  .ticket h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket p {
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
